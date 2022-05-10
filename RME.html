@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rogers MidMarket UI Enhancements</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <div id="me">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html">
+            <picture>
+              <source srcset="img/Logo.png" media="(max-width:250px)">
+              <img class="Logo" src="img/Logo.png" alt="Mario macahdo">
+            </picture>
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="files/resume.pdf">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="myfunction()"> <i class="fas fa-bars"> </i></a>
+            </ul>
+          </nav>
+        </div>
+      </div>
+  </header>
+
+  <div id="rme1">
+  <div class="container">
+    <h1>Rogers MidMarket Enhancements</h1>
+    <p>
+      The goal of this project was to improve the overall user experience of the Rogers MidMarket buy flow. This was done by examining each step a user would experience when purchasing a device.
+      Followed by identifying parts of the flow where UI improvements could be made and then creating a refreshed design showcasing those proposed changes.
+      Once complete the overall look and feel presents a revitalized experience for the user.
+    </p>
+  </div>
+</div>
+
+<div id="rme">
+    <div class="container">
+      <div>
+        <h2>Challenge</h2>
+        <p>
+          The challenge undertaking this project was ensuring all three designers were able to come to an agreement when looking for a solution for each phase of the buy flow.
+          When reviewing the current design of the screens we had to make sure that what we were proposing wasn’t going to require a lot of work from a developers view.
+          So being able to restrain ourselves to just highlighting quick UI changes was the larger task at hand.
+          No business requirements were provided for this project so developing a strong sense of attention to detail was essential to complete this project effectively.
+        </p>
+        <h2>Solutions</h2>
+        <h3>Account Information</h3>
+        <p>
+          We began by identifying the first step in the buy flow which was the account information section. Immediately we noticed spacing issues with the promotion offer that was displayed.
+          The navigation arrows were too close to the border of the container. Our design solution was to make the container smaller to allow the carousel arrows to not be flushed with the border.
+          Following that we identified inconsistencies within the account information screen and tidied up the appearance to add a sense of cohesion.
+        </p>
+        <div>
+           <img src="img/rme/ai.png" alt="">
+           <figcaption>Fig 1. New Design (Left), Old Design (Right) </figcaption>
+        </div>
+        <h3>Device Selection</h3>
+        <p>
+          The next step was the device selection phase where we noticed a lack of structure when reviewing the device details. Our proposed design solution here was to move the stock status below the device image and details.
+          This was designed so that when the user selects their specific model they can see if the device is in stock or out of stock based on the details they selected.
+          This change creates a more natural flow of the information, as opposed to the previous design with the stock being at the top.
+        </p>
+        <div>
+           <img src="img/rme/sd.png" alt="">
+           <figcaption> Fig 2. New Design (Left), Old Design (Right) </figcaption>
+        </div>
+        <p>
+            From there once a device is selected they can choose what payment method they wish to have such as financing payment or paying in full.
+            In the old design the presentation of the offers made it appear as if all offers available would be a “Special Offer”. Our solution to this was to create a tag instead of a banner to help distinguish between what offer has a deal or
+            not. We also rearranged the device details to make it more consistent with the previous device selection screen.
+          </p>
+          <div>
+             <img src="img/rme/sdc.png" alt="">
+             <figcaption> Fig 3. New Design (Left), Old Design (Right) </figcaption>
+          </div>
+          <h3>Trade In Device</h3>
+          <p>
+            Proceeding the plan selection the user is now given the option to trade in their device. While an optional step the user is presented with a step by step process with how it works in the beginning.
+            In the old design this takes up a lot of real estate on the screen and doesn’t provide a lot of value to the user. The change here was to minimize the icons and allow the text of each step to provide the value.
+            Next when answering the questions you can see in the old design the radio buttons are a jarring to view with the hyperlink blue colour.
+            We opted to change it to a shade of black while also bolding the answer they select to make it more visible.
+          </p>
+          <p>
+            In the old design there was some white space below the questionnaire that wasn’t used effectively. So the solution here was to move the estimated cost below the questionnaire
+            to create a better flow of information and by changing the colour of the value to green it removed the need to make the text big and bold.
+            This also opened up space to move the disclaimer message below the device selected.
+          </p>
+          <div>
+             <img src="img/rme/dti.png" alt="">
+             <figcaption>Fig 4. New Design (Left), Old Design (Right) </figcaption>
+          </div>
+          <h3>Plan Selection</h3>
+          <p>
+            Once a device is selected the user is prompted to select their plan. The old design showcased a layout in which the user could navigate between tabs to select plans.
+            We kept this style but instead the new tab option makes it clear where the break is between options. Also we made the non selected options a darker shade of gray to make it more visible,
+            compared to the old design where it blends in with the white background We also noticed that the offers themselves were not centered in the card so by reducing the spacing to make them
+            entered we were able to add another plan which will provide for value to the user
+          </p>
+          <div>
+             <img src="img/rme/sp.png" alt="">
+             <figcaption>Fig 5. New Design (Left), Old Design (Right) </figcaption>
+          </div>
+          <h3>Device Protection</h3>
+          <p>
+            Moving on from the trade in, we now have the device protection phase of the buy flow. Another optional stage we can see in the old design the card view extends the length of the container by quite a bit leaving white space to the right
+            of it, with the “No Device Protection” option being hidden right below. In our new design we stretched out the card view to occupy the width of the container and added bullet points to the details to make it easier to read for the user.
+            Additionally adding a separate card for “No device Selection” makes it feel like this is an actual option a user can select and not a second thought placed in there.
+          </p>
+          <div>
+             <img src="img/rme/dp.png" alt="">
+             <figcaption>Fig 6. New Design (Left), Old Design (Right) </figcaption>
+          </div>
+          <p>
+            Note: Large design changes were shown in the solution piece. For more information on what else was changed check out the link to the prototype to view the remaining mockups.
+          </p>
+          <h1><a href="https://xd.adobe.com/view/55e00293-014a-465b-8178-f95a4a4259f4-00b3/" target="_blank">Check out the Project Yourself</a></h1>
+          <h2>Conclusion</h2>
+          <p>
+            This project was very enjoyable to work on. Being able to collaborate with other designers and compromise on solutions was something I don't have the opportunity to do often.
+            Having the capability to do so allowed me as a designer to take more constructive feedback while also providing it and being more assertive in my desing decisions. I also had fun analyzing an existing design to see what can be improved on,
+            while following the constraints set out by the existing infrastructure. Moving forward I want to be able to apply these analytical methodologies into my future work to minimize the need for projects like this.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <footer id="contact">
+    <div class="container">
+      <h3> Reach Out </h3>
+      <p> If you enjoyed viewing my content and would like to get a hold of me to discuss a potential opportunity </a> contact me via email or through LinkedIn. </p>
+      <div id="icon">
+        <a href="mailto:mario.teo.machado@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 24 24">
+            <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mario-machado-709714136/">
+          <svg xmlns="http://www.w3.org/2000/svg" x="50" y="50" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+      </div>
+      <p> Copyright. Mario Machado, 2022</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

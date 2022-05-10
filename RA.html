@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rogers Accessory Redesign</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <div id="me">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html">
+            <picture>
+              <source srcset="img/Logo.png" media="(max-width:250px)">
+              <img class="Logo" src="img/Logo.png" alt="Mario macahdo">
+            </picture>
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="files/resume.pdf">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="myfunction()"> <i class="fas fa-bars"> </i></a>
+            </ul>
+          </nav>
+        </div>
+      </div>
+  </header>
+
+  <div id="ra1">
+    <div class="container">
+      <h1>Rogers Accessory Redesign</h1>
+      <p>
+        The Rogers Accessory Redesign proposal was a project that began in May of 2021 and was completed in the late half of January 2022. The objective of this project was to create a platform for accessory vendors
+        that would support the increase of accessory types and in doing so provide visibility to end users when purchasing devices and further accessories.
+        In addition to creating an administrative platform for accessory vendors, the accessory flow for users received a refreshed design to meet with best practices with other ecommerce websites.
+        This was done to allow more options across all channels and to support promotions and accessory bundles.
+      </p>
+    </div>
+  </div>
+
+  <div id="ra">
+    <div class="container">
+      <div>
+        <h2>Objective</h2>
+        <p>
+          Working alongside project managers and stakeholders we designed a platform to support the need to increase accessory types and visibility to users purchasing devices and further accessories.
+          As the only designer assigned to this project my role consisted of conducting product thinking, interaction, visual design and prototyping while working unsupervised to bring the solution to life.
+        </p>
+        <h2>Challenge</h2>
+        <p>
+          The initial challenge early on was understanding how this platform was going to be built and who was going to have access to complete these requests.
+          Based on the business requirements there were three main users that would be given permission to add, remove and reject accessories (Super Admin, Accessory Manager, and Accessory Vendor).
+          In terms of the accessory flow redesign the main challenge was making sure that one design would be able to work across multiple Rogers channels, because each respective channel had different styles in how they present their accessories to the customer.
+          So ensuring that the style guide was consistent for each channel was crucial. To ensure all requirements were captured, I worked alongside the project manager to create the user stories needed to develop the high fidelity prototypes.
+          Being in an agile work environment, low and mid fidelity wireframes were not developed, instead we moved right into the high fidelity wireframe and prototyping to meet deadlines.
+        </p>
+        <h2>Solutions</h2>
+        <h3>Adminsitration Portals</h3>
+        <p>
+          The first solution was to design a Rogers Direct web admin tool with an accessory management system. This would grant access and permissions to accessory vendors, Rogers Direct fulfillment staff, Rogers super administrators, and Rogers
+          sales admins. This gave them the ability to create and manage new and existing accessories across all Rogers Direct channels.
+        </p>
+        <div class="row">
+          <div class="column">
+            <img src="img/rad/rdaam.png" alt="">
+            <figcaption>Fig 1. Rogers Direct Super Adminsitrator Admin Tool </figcaption>
+          </div>
+          <div class="column">
+            <img src="img/rad/avam.png" alt="">
+            <figcaption>Fig 2. Accessory Vendor Admin Tool </figcaption>
+          </div>
+        </div>
+        <h3>Promotion Tool</h3>
+        <p>
+          A promotions tool was also developed to assist Rogers with driving sales and user traffic to the different Rogers Direct channels.
+          The promotion tool consists of a specific precondition feature (i.e. user adds iPhone 12 to their cart) which allows you to define a resulting action (i.e. system will enforce a 50% discount on SKU Iphone12GreyCase).
+          Resulting preconditions and actions can apply to all components of a wireless offer (device, plan, addons, accessories), so they can be mixed to create a specific promotion.
+        </p>
+        <div class="row">
+          <div class="column">
+            <img src="img/rad/pmp.png" alt="">
+            <figcaption>Fig 3. Promotion Tools Preconditon Overlay </figcaption>
+          </div>
+          <div class="column">
+            <img src="img/rad/pmpa.png" alt="">
+            <figcaption>Fig 4. Add Promotion Page with Preconditons Defined </figcaption>
+          </div>
+        </div>
+        <h3>Tag Management</h3>
+        <p>
+          To drive sales volume, a Tag Management system was developed, allowing Rogers administrators the ability to group accessories under a specific tag.
+          Items that are tagged will be present in the order flow with the ability for users to specifically look up items using the tag as a specific reference.
+          There were two use case scenarios that had to be considered, the first being able to search for any accessory you want and apply the tag to it.
+          The other is applying specific data rules to target a larger group of products all at once.
+        </p>
+        <img src="img/rad/tmd.png" alt="">
+        <figcaption>Fig 5. Tag Management Dashabord </figcaption>
+        <div class="row">
+          <div class="column">
+            <img src="img/rad/tma.png" alt="">
+            <figcaption>Fig 6. Creating a Tag with an Automatic Tagging Rule </figcaption>
+          </div>
+          <div class="column">
+            <img src="img/rad/tmp.png" alt="">
+            <figcaption>Fig 7. Creating a Tag with a Manual Tagging Rule </figcaption>
+          </div>
+        </div>
+        <h3>User Facing Designs</h3>
+        <p>
+          Finally to capture all the work created in the web admin tool the customer facing accessory order flow was created to display all the elements depicted in the tools.
+          While viewing the old design I wanted to keep some sense of familiarity so that when customers login and see the new layout they are not overwhelmed by all the changes.
+          Initially the accessories were presented in a list view, but I also created a grid view to give a better depiction of the type of accessories available to them.
+        </p>
+        <div class="row">
+          <div class="column">
+            <img src="img/rad/afeov.png" alt="">
+            <figcaption>Fig 8. Previous Version of the Accessory View </figcaption>
+          </div>
+          <div class="column">
+            <img src="img/rad/afegv.png" alt="">
+            <figcaption>Fig 9. Redesigned Version of the Accessory View </figcaption>
+          </div>
+        </div>
+        <h1><a href="https://xd.adobe.com/view/5c5fe346-a109-43b5-912c-e3eaf3be812e-090c/" target="_blank">Check out the Project Yourself</a></h1>
+        <h2>Conclusion</h2>
+        <p>
+          This project was my first opportunity to develop a solution that will be utilized by actual users. I am very excited to gain user feedback from their experience with the design.
+          This was an exciting project that helped me not only with working independently but also with learning how to compromise on design solutions based on development constraints.
+          The project also gave me the opportunity to present my solutions to stakeholders and gain experience in developing my designs through constructive feedback.
+          Moving forward I would like to make some future enhancements to the design based on current trends in the ecommerce space, as well as learn about any analytics and feedback from the users.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <div class="container">
+      <h3> Reach Out </h3>
+      <p> If you enjoyed viewing my content and would like to get a hold of me to discuss a potential opportunity </a> contact me via email or through LinkedIn. </p>
+      <div id="icon">
+        <a href="mailto:mario.teo.machado@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 24 24">
+            <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mario-machado-709714136/">
+          <svg xmlns="http://www.w3.org/2000/svg" x="50" y="50" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+      </div>
+      <p> Copyright. Mario Machado, 2022</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
