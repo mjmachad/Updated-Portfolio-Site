@@ -1,0 +1,525 @@
+/*
+White #eff0f3	(239,240,black237)
+black        #0d0d0d	(51,51,50) (Headline)
+charcoal #2a2a2a	(19,82,161) (Paragraph)
+Orange #ff8e3c	(254,211,100) (Buttons)
+red	#fa6964	(250,105,100)
+*/
+/*Changes to the Heading and Index Page*/
+* {
+  box-sizing: border-box
+}
+
+.row{
+  margin: 10px 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.Logo{
+  float: left;
+  padding top: 5px;
+  max-width: 275px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 12.5px;
+  font-size: 40px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 5px 0;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+
+nav{
+  padding-top: 5px;
+}
+
+nav>ul {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 55px;
+  margin: 0;
+}
+
+nav>ul>li>a {
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eff0f3;
+}
+
+nav>ul>li>a:visited {
+  color: #fff1d0;
+}
+
+nav>ul>li>a:hover {
+  color: #fff1d0;
+  text-decoration: underline;
+}
+
+nav>ul>li>a:active {
+  color: #fff1d0;
+}
+
+#slide{
+  background-color: #0d0d0d;
+}
+
+#contact{
+  background-color: #0d0d0d;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#contact h3{
+  color: #eff0f3;
+}
+
+#contact p{
+  color: #eff0f3;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1080px;
+  padding-top: 100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ z-index: 4
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,255.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #aeaeae;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+#me {
+  z-index: 5;
+  background-color: #0d0d0d;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(25, 25, 25, 0.75);
+  position: fixed;
+  width: 100%
+}
+
+#project4 h2{
+  text-align: center;
+
+}
+
+#project4 .row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0d0d0d;
+}
+
+#project5 .row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0d0d0d;
+}
+
+#project6 .row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0d0d0d;
+}
+
+/*Font Guidelines to the Body*/
+body {
+  background-color: #eff0f3;
+  font-family: 'Palatino', sans-serif;
+  font-size: 18px;
+  /* Sets the font size to 16px */
+  font-weight: 500;
+  /* Sets the font weight to 500 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #0d0d0d;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #fff1d0;
+  text-decoration: underline;
+  /* No underlining */
+}
+
+a:hover {
+  color: #fff1d0;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+
+a:active {
+  /* selected link */
+  color: #fff1d0;
+}
+
+a:hover,
+a:focus {
+  color: #fff1d0;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #1352a1;
+  color: #eff0f3;
+  /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #0d0d0d;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color:
+  color: #1352a1;
+  text-transform: uppercase;
+  border: 2px solid #1352a1;
+}
+
+.button.contact:hover {
+  background-color: #eff0f3;
+  color: #1352a1;
+  border: 2px solid #1352a1;
+}
+
+/* Layout Styling to Vela */
+#vela1 {
+  padding-top: 75px;
+  display: inline-block;
+  width: 100%;
+  background-color: #eff0f3;
+  font-family: 'Palatino', sans-serif;
+  font-size: 18px;
+  /* Sets the font size to 16px */
+  font-weight: 500;
+  /* Sets the font weight to 500 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #2a2a2a;
+}
+
+#vela {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #eff0f3;
+  font-family: 'Palatino', sans-serif;
+  font-size: 18px;
+  /* Sets the font size to 16px */
+  font-weight: 500;
+  /* Sets the font weight to 500 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #2a2a2a;
+}
+
+#vela1 p {
+  text-align: left;
+}
+
+#vela1, #vela h1 {
+  text-align: center;
+}
+
+#vela a{
+  color:#1352a1;
+}
+
+#vela h2 {
+  text-align: left;
+}
+
+/* Layout for RME Page*/
+#rme1{
+  padding-top: 100px;
+}
+
+#rme1 h1{
+  text-align: center;
+}
+
+#rme a{
+  color: #1352a1;
+}
+
+/* Layout for PIM Page*/
+
+#pim{
+  padding-top: 100px;
+}
+
+#pim h1{
+  text-align: center;
+}
+
+/* Layout for RA Page*/
+
+#ra1{
+  padding-top: 100px;
+}
+
+#ra1 h1{
+  text-align: center;
+}
+
+#ra a{
+  color: #1352a1;
+}
+
+/* Layout for About Page*/
+#about {
+  padding-top: 100px;
+}
+
+#about {
+  display: inline-block;
+  width: 100%;
+  background-color: #eff0f3;
+  font-family: 'Palatino', sans-serif;
+  font-size: 18px;
+  /* Sets the font size to 16px */
+  font-weight: 500;
+  /* Sets the font weight to 500 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #2a2a2a;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about h2 {
+  text-align: left;
+}
+
+/* Layout Styling for Footer*/
+#contact{
+  text-align: center;
+}
+
+#icon {
+  text-align: center;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 665px) {
+  nav {
+    float: right;
+  }
+
+  nav>ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding-right: 10px;
+  }
+
+  #about h3 {
+    margin-top: 0px;
+  }
+
+  #rme .column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  #rme h1{
+    text-align: center;
+  }
+
+  #ra .column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  #ra h1{
+    text-align: center;
+  }
+
+  [class*="col-"] {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #project4 [class*="col-"] {
+    float: left;
+    padding-right: 10px;
+  }
+
+  #project6 [class*="col-"] {
+    float: left;
+    padding-right: 10px;
+  }
+
+  #about h3 {
+    margin-top: 0px;
+  }
+
+}
+
+  /* ==============================
+Large devices (1024px or larger)
+================================= */
+  @media only screen and (min-width: 1024px) {
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
